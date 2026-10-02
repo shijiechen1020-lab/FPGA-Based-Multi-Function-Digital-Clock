@@ -1,0 +1,104 @@
+# GW48-CK + GW3C5 (Cyclone III EP3C5E144C8), structure chart NO.3
+# Pin numbers from the 引脚对照表 in the GW48 lab manual.
+# Import with:  Assignments -> Import Assignments...
+
+# CLOCK0 (jumper -> 12 MHz)
+set_location_assignment PIN_88 -to clk
+# PIO0 = key 1 = MODE
+set_location_assignment PIN_11 -to key[0]
+# PIO1 = key 2 = SEL
+set_location_assignment PIN_10 -to key[1]
+# PIO2 = key 3 = INC
+set_location_assignment PIN_7 -to key[2]
+# PIO3 = key 4 = DEC
+set_location_assignment PIN_4 -to key[3]
+# PIO4 = key 5 = START
+set_location_assignment PIN_3 -to key[4]
+# PIO5 = key 6 = CLR
+set_location_assignment PIN_2 -to key[5]
+# PIO6 = key 7 = alarm on/off
+set_location_assignment PIN_1 -to key[6]
+# PIO7 = key 8 = 12/24h
+set_location_assignment PIN_144 -to key[7]
+# PIO8 = LED D1
+set_location_assignment PIN_143 -to led[0]
+# PIO9 = LED D2
+set_location_assignment PIN_142 -to led[1]
+# PIO10 = LED D3
+set_location_assignment PIN_141 -to led[2]
+# PIO11 = LED D4
+set_location_assignment PIN_138 -to led[3]
+# PIO12 = LED D5
+set_location_assignment PIN_137 -to led[4]
+# PIO13 = LED D6
+set_location_assignment PIN_136 -to led[5]
+# PIO14 = LED D7
+set_location_assignment PIN_135 -to led[6]
+# PIO15 = LED D8
+set_location_assignment PIN_38 -to led[7]
+# PIO16 = digit 1 bit A
+set_location_assignment PIN_39 -to seg_bcd[0]
+# PIO17 = digit 1 bit B
+set_location_assignment PIN_42 -to seg_bcd[1]
+# PIO18 = digit 1 bit C
+set_location_assignment PIN_43 -to seg_bcd[2]
+# PIO19 = digit 1 bit D
+set_location_assignment PIN_44 -to seg_bcd[3]
+# PIO20 = digit 2 bit A
+set_location_assignment PIN_53 -to seg_bcd[4]
+# PIO21 = digit 2 bit B
+set_location_assignment PIN_52 -to seg_bcd[5]
+# PIO22 = digit 2 bit C
+set_location_assignment PIN_51 -to seg_bcd[6]
+# PIO23 = digit 2 bit D
+set_location_assignment PIN_50 -to seg_bcd[7]
+# PIO24 = digit 3 bit A
+set_location_assignment PIN_49 -to seg_bcd[8]
+# PIO25 = digit 3 bit B
+set_location_assignment PIN_46 -to seg_bcd[9]
+# PIO26 = digit 3 bit C
+set_location_assignment PIN_54 -to seg_bcd[10]
+# PIO27 = digit 3 bit D
+set_location_assignment PIN_55 -to seg_bcd[11]
+# PIO28 = digit 4 bit A
+set_location_assignment PIN_58 -to seg_bcd[12]
+# PIO29 = digit 4 bit B
+set_location_assignment PIN_59 -to seg_bcd[13]
+# PIO30 = digit 4 bit C
+set_location_assignment PIN_60 -to seg_bcd[14]
+# PIO31 = digit 4 bit D
+set_location_assignment PIN_64 -to seg_bcd[15]
+# PIO32 = digit 5 bit A
+set_location_assignment PIN_65 -to seg_bcd[16]
+# PIO33 = digit 5 bit B
+set_location_assignment PIN_66 -to seg_bcd[17]
+# PIO34 = digit 5 bit C
+set_location_assignment PIN_67 -to seg_bcd[18]
+# PIO35 = digit 5 bit D
+set_location_assignment PIN_68 -to seg_bcd[19]
+# PIO36 = digit 6 bit A
+set_location_assignment PIN_69 -to seg_bcd[20]
+# PIO37 = digit 6 bit B
+set_location_assignment PIN_70 -to seg_bcd[21]
+# PIO38 = digit 6 bit C
+set_location_assignment PIN_71 -to seg_bcd[22]
+# PIO39 = digit 6 bit D
+set_location_assignment PIN_72 -to seg_bcd[23]
+# PIO40 = digit 7 bit A
+set_location_assignment PIN_73 -to seg_bcd[24]
+# PIO41 = digit 7 bit B
+set_location_assignment PIN_74 -to seg_bcd[25]
+# PIO42 = digit 7 bit C
+set_location_assignment PIN_75 -to seg_bcd[26]
+# PIO43 = digit 7 bit D
+set_location_assignment PIN_76 -to seg_bcd[27]
+# PIO44 = digit 8 bit A
+set_location_assignment PIN_77 -to seg_bcd[28]
+# PIO45 = digit 8 bit B
+set_location_assignment PIN_79 -to seg_bcd[29]
+# PIO46 = digit 8 bit C
+set_location_assignment PIN_80 -to seg_bcd[30]
+# PIO47 = digit 8 bit D
+set_location_assignment PIN_83 -to seg_bcd[31]
+# SPEAKER
+set_location_assignment PIN_86 -to speaker
